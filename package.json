@@ -1,0 +1,24 @@
+{
+  "name": "splitwise-app",
+  "version": "1.0.0",
+  "description": "A Splitwise-style expense sharing application — track shared expenses, split bills, and settle up balances within groups.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "splitwise",
+    "expense",
+    "expense-sharing",
+    "bill-splitting",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
