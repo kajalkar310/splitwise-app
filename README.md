@@ -97,6 +97,12 @@ splitwise-app/
   - Negative → they **owe** money.
 - `simplifyDebts` greedily matches the largest debtor with the largest creditor to minimize the number of payments needed to settle up.
 
+## Step to run
+ - git clone https://github.com/kajalkar310/splitwise-app.git
+ - cd splitwise-app
+ - npm install
+ - npm start   # → http://localhost:3000
+
 ## 📄 License
 
 MIT
